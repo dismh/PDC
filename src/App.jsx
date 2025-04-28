@@ -6,6 +6,7 @@ import Register from './components/Register';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './index.css'; // or wherever your Tailwind CSS file is
+import '../../PDC/node_modules'
 
 
 function App() {
