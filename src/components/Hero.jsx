@@ -1,3 +1,5 @@
+import { useEffect, useRef } from 'react';
+
 const Hero = () => {
   return (
     <section

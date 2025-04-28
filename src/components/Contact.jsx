@@ -1,3 +1,5 @@
+import { useEffect, useRef } from 'react';
+
 const Contact = () => {
   return (
     <section id="contact" className="bg-gray-200 dark:bg-gray-800 py-16">

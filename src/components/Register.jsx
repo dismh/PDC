@@ -1,3 +1,5 @@
+import { useEffect, useRef } from 'react';
+
 const Register = () => {
   return (
     <section id="register" className="py-16 bg-gray-100 dark:bg-gray-900">

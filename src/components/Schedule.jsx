@@ -1,3 +1,5 @@
+import { useEffect, useRef } from 'react';
+
 const Schedule = () => {
   return (
     <section id="schedule" className="bg-gray-200 dark:bg-gray-800 py-5">
