@@ -11,7 +11,7 @@ import './index.css'; // or wherever your Tailwind CSS file is
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
       <Header />
       <main>
         <Hero />
