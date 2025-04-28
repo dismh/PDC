@@ -1,6 +1,6 @@
 const Schedule = () => {
   return (
-    <section id="schedule" className="bg-gray-200 dark:bg-gray-800 py-16">
+    <section id="schedule" className="bg-gray-200 dark:bg-gray-800 py-5">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">
           Event Schedule
