@@ -25,16 +25,3 @@ html.dark {
 * {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
-html {
-  scroll-behavior: smooth;
-
-}
-
-
-.animate-marquee {
-  animation: marquee 10s linear infinite;
-  /* Adjust duration and timing function as needed */
-  white-space: nowrap;
-  /* Prevent text from wrapping */
-}
