@@ -114,20 +114,10 @@ const Header = () => {
           {/* Theme Toggle Button */}
           <button
             onClick={toggleDarkMode}
-            className={`relative inline-flex items-center w-20 h-10 rounded-full transition-all duration-500 ml-4 ${
-              isDarkMode
-                ? "bg-gradient-to-r from-blue-400 to-indigo-500"
-                : "bg-gradient-to-r from-yellow-300 to-orange-400"
-            }`}
+            className="ml-4 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
             aria-label="Toggle dark mode"
           >
-            <span
-              className={`absolute top-1 left-1 w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all duration-500 transform ${
-                isDarkMode ? "translate-x-10" : "translate-x-0"
-              } shadow-md text-lg`}
-            >
-              {isDarkMode ? "🌙" : "☀️"}
-            </span>
+            {isDarkMode ? "☀️" : "🌙"}
           </button>
         </nav>
 
@@ -135,20 +125,10 @@ const Header = () => {
         <div className="md:hidden flex items-center">
           <button
             onClick={toggleDarkMode}
-            className={`relative inline-flex items-center w-20 h-10 rounded-full transition-all duration-500 mr-4 ${
-              isDarkMode
-                ? "bg-gradient-to-r from-blue-400 to-indigo-500"
-                : "bg-gradient-to-r from-yellow-300 to-orange-400"
-            }`}
+            className="mr-4 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
             aria-label="Toggle dark mode"
           >
-            <span
-              className={`absolute top-1 left-1 w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all duration-500 transform ${
-                isDarkMode ? "translate-x-10" : "translate-x-0"
-              } shadow-md text-lg`}
-            >
-              {isDarkMode ? "🌙" : "☀️"}
-            </span>
+            {isDarkMode ? "☀️" : "🌙"}
           </button>
           <button onClick={toggleMenu}>
             <svg
